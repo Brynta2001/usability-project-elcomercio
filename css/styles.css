@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'NunitoSans';
+    src: url(../font/NunitoSans-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: 'NunitoSans-SemiBold';
+    src: url(../font/NunitoSans-SemiBold.ttf);
+  }
+  
+  @font-face {
+    font-family: 'NunitoSans-Bold';
+    src: url(../font/NunitoSans-Bold.ttf);
+  }
+  
+  /* Estilo para el título */
+  .title {
+      font-family: NunitoSans-Bold, sans-serif;
+      font-size: 48px;
+      color: #000;
+    }
+    
+    /* Estilo para el menú */
+    .menu {
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+      font-size: 14px;
+      color: #FFFFFF;
+    }
+    
+    /* Estilo para la edición */
+    .edition {
+      font-family: NunitoSans-SemiBold, sans-serif;
+      font-size: 20px;
+      color: #000000;
+    }
+    
+    /* Estilo para Title3 */
+    .title3 {
+      font-family: NunitoSans-SemiBold, sans-serif;
+      font-size: 18px;
+      color: #55565A;
+    }
+    
+    /* Estilo para el texto */
+    .text {
+      font-family: NunitoSans-Regular, sans-serif;
+      font-size: 16px;
+      color: #55565A;
+    }
+    
