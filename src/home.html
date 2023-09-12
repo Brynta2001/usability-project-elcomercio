@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,30 +13,30 @@
     <nav class="navbar text" style="background-color: white;">
         <div class="container-fluid">
             <div class="d-flex">
-                <div type="button" class="me-3">
+                <div type="button" class="me-3" tabindex="1" role="button">
                     <i class="bi bi-list" style="font-size: 30px"></i>
                 </div>
                 <div class="input-group">
-                    <div class="input-group-text" id="btnGroupAddon">
+                    <div class="input-group-text" id="btnGroupAddon" tabindex="1">
                         <i class="bi bi-search"></i>
                     </div>
-                    <input type="text" class="form-control" placeholder="Buscar" aria-label="Buscar" aria-describedby="basic-addon1">
+                    <input type="text" class="form-control" role="search" placeholder="Buscar" tabindex="1" aria-label="Buscar" alt="Buscar">
                 </div>
             </div>
             <div class="d-flex">
-                <button class="btn btn-primary me-2" style="background-color: #009CD7; border-color: #009CD7;">Suscribirse</button>
-                <a href="login.html" class="btn btn-secondary">Ingresar</a>
+                <button class="btn btn-primary me-2" style="background-color: #009CD7; border-color: #009CD7;" tabindex="1" role="button">Suscribirse</button>
+                <a href="login.html" class="btn btn-secondary" tabindex="1" role="button">Ingresar</a>
             </div>
         </div>
     </nav>
 
     <div class="row my-3 align-items-center text">
-        <div class="col-md-4 text-center">
+        <div class="col-md-4 text-center" tabindex="1" role="banner">
             <b>Martes, 12 de septiembre, 2023</b><br>
             Ecuador Continental: 09:00<br>
             Ecuador Insular: 08:00
         </div>
-        <div class="col-md-4 text-center">
+        <div class="col-md-4 text-center" tabindex="1" role="img">
             <img src="../img/logo-ec.png" class="img-fluid" alt="Logo de El Comercio">
         </div>
     </div>
@@ -48,25 +48,25 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav mx-auto" >
               <li class="nav-item">
-                <a class="nav-link active text-light me-5" aria-current="page" href="#"><b>ÚLTIMA HORA</b></a>
+                <a class="nav-link active text-light me-5" aria-current="page" href="#" tabindex="2" role="navigation"><b>ÚLTIMA HORA</b></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light me-5" href="home.html"><b>ACTUALIDAD</b></a>
+                <a class="nav-link text-light me-5" href="home.html" tabindex="2" role="navigation"><b>ACTUALIDAD</b></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active text-light me-5" href="previous-editions.html"><b>EDICIONES ANTERIORES</b></a>
+                <a class="nav-link active text-light me-5" href="previous-editions.html" tabindex="2" role="navigation"><b>EDICIONES ANTERIORES</b></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active text-light me-5" href="#"><b>TENDENCIAS</b></a>
+                <a class="nav-link active text-light me-5" href="#" tabindex="2" role="navigation"><b>TENDENCIAS</b></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active text-light me-5" href="#"><b>DEPORTES</b></a>
+                <a class="nav-link active text-light me-5" href="#" tabindex="2" role="navigation"><b>DEPORTES</b></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active text-light me-5" href="#"><b>OPINIÓN</b></a>
+                <a class="nav-link active text-light me-5" href="#" tabindex="2" role="navigation"><b>OPINIÓN</b></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active text-light" href="#"><b>VIDEO</b></a>
+                <a class="nav-link active text-light" href="#" tabindex="2" role="navigation"><b>VIDEO</b></a>
               </li>
             </ul>
           </div>
@@ -76,51 +76,52 @@
     <div class="container-fluid mt-5">
         <div class="row">
             <div class="col me-4">
+                <h1 class="text-center mb-5" tabindex="3">ACTUALIDAD</h1>
                 <div class="row border-bottom mt-2 pb-4">
                     <div class="col-md-5">
-                        <h2 class="title-news">Candidato presidencial Fernando Villavicencio fue asesinado en Quito</h2><br>
-                        <p class="text">El candidato presidencial de Ecuador, Fernando Villavicencio, fue asesinado este 9 de agosto de 2023, en Quito, capital del país andino. Un ataque perpetrado por personas armadas segó la vida del político pasadas las 18:20 del miércoles.</p>
+                        <h2 class="title-news" tabindex="4" role="heading">Candidato presidencial Fernando Villavicencio fue asesinado en Quito</h2><br>
+                        <p class="text" tabindex="4">El candidato presidencial de Ecuador, Fernando Villavicencio, fue asesinado este 9 de agosto de 2023, en Quito, capital del país andino. Un ataque perpetrado por personas armadas segó la vida del político pasadas las 18:20 del miércoles.</p>
                     </div>
                     <div class="col-md-7">
-                        <img src="https://www.elcomercio.com/wp-content/uploads/2023/08/fernando-villavicencio-asesinado-mitin-politico-700x391.jpg" class="img-fluid">
-                        <p class="d-flex flex-row-reverse text" style="font-size: smaller;">Fotografía tomada por: Mateo Pérez</p>
+                        <img tabindex="4" role="img" src="https://www.elcomercio.com/wp-content/uploads/2023/08/fernando-villavicencio-asesinado-mitin-politico-700x391.jpg" class="img-fluid" alt="Fotografía de Fernando Villavicencio presentando un discurso">
+                        <p tabindex="4" role="contentinfo" class="d-flex flex-row-reverse text" style="font-size: smaller;">Fotografía tomada por: Mateo Pérez</p>
                     </div>
                 </div>
                 <div class="row border-bottom mt-4 pb-4">
                     <div class="col-md-5">
-                        <h2 class="title-news">Turista atacada por tiburón en Galápagos será trasladada a Guayaquil</h2><br>
-                        <p class="text">Tras el ataque de un tiburón que sufrió una turista mexicana de 42 años el lunes, 3 de julio de 2023 en el islote Mosquera, en Galápagos, la mujer fue trasladada desde la isla hacia Guayaquil.
+                        <h2 class="title-news" tabindex="4" role="heading">Turista atacada por tiburón en Galápagos será trasladada a Guayaquil</h2><br>
+                        <p class="text" tabindex="4">Tras el ataque de un tiburón que sufrió una turista mexicana de 42 años el lunes, 3 de julio de 2023 en el islote Mosquera, en Galápagos, la mujer fue trasladada desde la isla hacia Guayaquil.
                             La víctima recibió varias mordidas en su pierna derecha mientras realizaba snorkeling.</p>
                     </div>
                     <div class="col-md-7">
-                        <img src="https://www.elcomercio.com/wp-content/uploads/2023/07/turista-atacada-tiburon-galapagos-trasladada-guayaquil-700x391.jpg" class="img-fluid">
-                        <p class="d-flex flex-row-reverse text" style="font-size: smaller;">Fotografía tomada por: Mateo Pérez</p>
+                        <img tabindex="4" role="img" src="https://www.elcomercio.com/wp-content/uploads/2023/07/turista-atacada-tiburon-galapagos-trasladada-guayaquil-700x391.jpg" class="img-fluid" alt="Fotografía de un tiburón nadando en el océano">
+                        <p tabindex="4" role="contentinfo" class="d-flex flex-row-reverse text" style="font-size: smaller;">Fotografía tomada por: Mateo Pérez</p>
                     </div>
                 </div>
                 <div class="row border-bottom mt-4 pb-4">
                     <div class="col-md-5">
-                        <h2 class="title-news">2 de 8 candidatos presidenciales descartan la seguridad policial para campaña</h2><br>
-                        <p class="text">El Consejo Nacional Electoral (CNE) confirmó que hasta este miércoles, 5 de julio de 2023, dos de los ocho candidatos a la Presidencia de la República no han aceptado contar con seguridad de la Policía para la campaña por las elecciones anticipadas del 20 de agosto.</p>
+                        <h2 class="title-news" tabindex="4" role="heading">2 de 8 candidatos presidenciales descartan la seguridad policial para campaña</h2><br>
+                        <p class="text" tabindex="4" >El Consejo Nacional Electoral (CNE) confirmó que hasta este miércoles, 5 de julio de 2023, dos de los ocho candidatos a la Presidencia de la República no han aceptado contar con seguridad de la Policía para la campaña por las elecciones anticipadas del 20 de agosto.</p>
                     </div>
                     <div class="col-md-7">
-                        <img src="https://www.elcomercio.com/wp-content/uploads/2023/07/Equipos-de-inteligencia-y-tacticos-de-la-Policia-brindan-seguridad-a-los-binomios-presidenciales.-Foto-Ministerio-del-Interior-700x425.jpg" class="img-fluid" style="width: 600px;">
-                        <p class="d-flex flex-row-reverse text" style="font-size: smaller;">Fotografía tomada por: Roger Vélez</p>
+                        <img tabindex="4" role="img" src="https://www.elcomercio.com/wp-content/uploads/2023/07/Equipos-de-inteligencia-y-tacticos-de-la-Policia-brindan-seguridad-a-los-binomios-presidenciales.-Foto-Ministerio-del-Interior-700x425.jpg" class="img-fluid" style="width: 600px;" alt="Fotografía del equipo especial de la policía encargado de la protección a los candidatos presidenciales.">
+                        <p tabindex="4" role="contentinfo" class="d-flex flex-row-reverse text" style="font-size: smaller;">Fotografía tomada por: Roger Vélez</p>
                     </div>
                 </div>
                 <div class="row mt-4 pb-4">
                     <div class="col-md-5">
-                        <h2 class="title-news">Sentencia escrita por el caso Las Torres fue notificada a la Fiscalía</h2><br>
-                        <p class="text">La Fiscalía General del Estado fue notificada con la sentencia escrita del caso Las Torres. De acuerdo con el Tribunal de la Corte Nacional de Justicia, "los hechos probados demuestran que 11 personas (incluido el excontralor Pablo Celi formaron parte de una estructura delictiva para cometer delitos de corrupción y lavado de activos".</p>
+                        <h2 class="title-news" tabindex="4" role="heading">Sentencia escrita por el caso Las Torres fue notificada a la Fiscalía</h2><br>
+                        <p class="text" tabindex="4">La Fiscalía General del Estado fue notificada con la sentencia escrita del caso Las Torres. De acuerdo con el Tribunal de la Corte Nacional de Justicia, "los hechos probados demuestran que 11 personas (incluido el excontralor Pablo Celi formaron parte de una estructura delictiva para cometer delitos de corrupción y lavado de activos".</p>
                     </div>
                     <div class="col-md-7">
-                        <img src="https://www.elcomercio.com/wp-content/uploads/2023/07/sentencia-torres.jpg" class="img-fluid" style="width: 600px;">
-                        <p class="d-flex flex-row-reverse text" style="font-size: smaller;">Fotografía tomada por: Mateo Pérez</p>
+                        <img tabindex="4" role="img" src="https://www.elcomercio.com/wp-content/uploads/2023/07/sentencia-torres.jpg" class="img-fluid" style="width: 600px;" alt="Fotografía de una reunión con 3 miembros de la Giscalía General del Estado.">
+                        <p tabindex="4" role="contentinfo" class="d-flex flex-row-reverse text" style="font-size: smaller;">Fotografía tomada por: Mateo Pérez</p>
                     </div>
                 </div>
             </div>
             <div class="col-4 border-start">
-                <h2 class="title-news my-3">ÚLTIMA HORA</h2>
-                <div class="border-bottom py-3">
+                <h2 class="title-news my-3" tabindex="3" role="heading">ÚLTIMA HORA</h2>
+                <div class="border-bottom py-3" tabindex="4">
                     <span class="title3 pe-2">
                         9:00
                     </span>
@@ -128,7 +129,7 @@
                         ¿Quién le dice esto a Milei?
                     </span>
                 </div>
-                <div class="border-bottom py-3">
+                <div class="border-bottom py-3" tabindex="4">
                     <span class="title3 pe-2">
                         8:56
                     </span>
@@ -136,7 +137,7 @@
                         Interculturalidad y poder
                     </span>
                 </div>
-                <div class="border-bottom py-3">
+                <div class="border-bottom py-3" tabindex="4">
                     <span class="title3 pe-2">
                         8:48
                     </span>
@@ -144,7 +145,7 @@
                         Turismo ambientalista
                     </span>
                 </div>
-                <div class="border-bottom py-3">
+                <div class="border-bottom py-3" tabindex="4">
                     <span class="title3 pe-2">
                         8:30
                     </span>
@@ -152,7 +153,7 @@
                         Perdidos en el espacio…
                     </span>
                 </div>
-                <div class="border-bottom py-3">
+                <div class="border-bottom py-3" tabindex="4">
                     <span class="title3 pe-2">
                         8:22
                     </span>
@@ -160,7 +161,7 @@
                         La campaña mentirosa de la segunda vuelta
                     </span>
                 </div>
-                <div class="border-bottom py-3">
+                <div class="border-bottom py-3" tabindex="4">
                     <span class="title3 pe-2">
                         8:10
                     </span>
@@ -168,7 +169,7 @@
                         La matriz energética y cambio climático
                     </span>
                 </div>
-                <div class="border-bottom py-3">
+                <div class="border-bottom py-3" tabindex="4">
                     <span class="title3 pe-2">
                         8:02
                     </span>
@@ -177,14 +178,14 @@
                     </span>
                 </div>
                 <div class="row mt-3">
-                    <div class="col">
+                    <div class="col" tabindex="4">
                         <div class="text-center">
                             <img src="../img/Paola-Gavilanes-Respirando-Bienestar.jpg" class="img-fluid"  alt="Fotografia a blanco y negro de Paola Gavilanez">
                         </div>
                         <p class="title3-bold my-2">Así es la vida de los osos panda en Chengdu</p>
                         <p class="text">PAOLA GAVILANEZ</p>
                     </div>
-                    <div class="col border-start">
+                    <div class="col border-start" tabindex="4">
                         <div class="text-center">
                             <img src="../img/msf.jpeg" class="img-fluid"  alt="Persona siendo abrazada con una camisete que lleva el logo de médicos sin fronteras">
                         </div>
@@ -197,49 +198,48 @@
     </div>
 
     <footer class="bg-body-tertiary border-top">
-        <img src="../img/logo-ec.png" class="img-fluid px-5 pt-3" style="width: 300px;" alt="Logo de El Comercio">
+        <img tabindex="5" role="img" src="../img/logo-ec.png" class="img-fluid px-5 pt-3" style="width: 300px;" alt="Logo de El Comercio">
         <div class="row px-5 py-3 ">
             <div class="col-md-3 text">
-                <b class="mb-5">NOTICIAS</b><br>
-                <a href="#" style="color: black; text-decoration: none;">Últimas Noticias</a><br>
-                <a href="#" style="color: black; text-decoration: none;">Internacionales</a><br>
-                <a href="#" style="color: black; text-decoration: none;">Política</a><br>
-                <a href="#" style="color: black; text-decoration: none;">Tecnología</a><br>
-                <a href="#" style="color: black; text-decoration: none;">Ciencia</a><br>
-                <a href="#" style="color: black; text-decoration: none;">Negocios</a>
-                <a href="#" style="color: black; text-decoration: none;">Negocios</a>
+                <b class="mb-5" tabindex="5" role="heading">NOTICIAS</b><br>
+                <a href="#" style="color: black; text-decoration: none;" tabindex="5">Últimas Noticias</a><br>
+                <a href="#" style="color: black; text-decoration: none;" tabindex="5">Internacionales</a><br>
+                <a href="#" style="color: black; text-decoration: none;" tabindex="5">Política</a><br>
+                <a href="#" style="color: black; text-decoration: none;" tabindex="5">Tecnología</a><br>
+                <a href="#" style="color: black; text-decoration: none;" tabindex="5">Ciencia</a><br>
+                <a href="#" style="color: black; text-decoration: none;" tabindex="5">Negocios</a>
             </div>
             <div class="col-md-3 border-start text">
-                <b>OPINIÓN</b><br>
-                <a href="#" style="color: black; text-decoration: none;">Opiniones de hoy</a><br>
-                <a href="#" style="color: black; text-decoration: none;">Editoriales</a><br>
-                <a href="#" style="color: black; text-decoration: none;">Ensayos</a><br>
-                <a href="#" style="color: black; text-decoration: none;">Cartas</a><br>
-                <a href="#" style="color: black; text-decoration: none;">Columnistas</a>
+                <b tabindex="5" role="heading">OPINIÓN</b><br>
+                <a href="#" style="color: black; text-decoration: none;" tabindex="5">Opiniones de hoy</a><br>
+                <a href="#" style="color: black; text-decoration: none;" tabindex="5">Editoriales</a><br>
+                <a href="#" style="color: black; text-decoration: none;" tabindex="5">Ensayos</a><br>
+                <a href="#" style="color: black; text-decoration: none;" tabindex="5">Cartas</a><br>
+                <a href="#" style="color: black; text-decoration: none;" tabindex="5">Columnistas</a>
             </div>
             <div class="col-md-3 border-start text">
-                <b>COTIDIANIDAD</b><br>
-                <a href="#" style="color: black; text-decoration: none;">Transporte</a><br>
-                <a href="#" style="color: black; text-decoration: none;">Juegos</a><br>
-                <a href="#" style="color: black; text-decoration: none;">Educación</a><br>
-                <a href="#" style="color: black; text-decoration: none;">Comida</a><br>
-                <a href="#" style="color: black; text-decoration: none;">Trabajo</a><br>
-                <a href="#" style="color: black; text-decoration: none;">Salud</a><br>
-                <a href="#" style="color: black; text-decoration: none;">Estilo</a><br>
-                <a href="#" style="color: black; text-decoration: none;">Moda</a>
+                <b tabindex="5" role="heading">COTIDIANIDAD</b><br>
+                <a href="#" style="color: black; text-decoration: none;" tabindex="5">Transporte</a><br>
+                <a href="#" style="color: black; text-decoration: none;" tabindex="5">Juegos</a><br>
+                <a href="#" style="color: black; text-decoration: none;" tabindex="5">Educación</a><br>
+                <a href="#" style="color: black; text-decoration: none;" tabindex="5">Comida</a><br>
+                <a href="#" style="color: black; text-decoration: none;" tabindex="5">Trabajo</a><br>
+                <a href="#" style="color: black; text-decoration: none;" tabindex="5">Salud</a><br>
+                <a href="#" style="color: black; text-decoration: none;" tabindex="5">Estilo</a><br>
+                <a href="#" style="color: black; text-decoration: none;" tabindex="5">Moda</a>
             </div>
             <div class="col-md-3 border-start text">
-                <b>SERVICIOS</b><br>
-                <a href="#" style="color: black; text-decoration: none;">Tarifario</a><br>
-                <a href="#" style="color: black; text-decoration: none;">Suscripción</a><br>
-                <a href="#" style="color: black; text-decoration: none;">Ediciones</a><br>
-                <a href="#" style="color: black; text-decoration: none;">Facturación</a><br>
-                <a href="#" style="color: black; text-decoration: none;">Puntos de servicio</a><br>
-                <a href="#" style="color: black; text-decoration: none;">Síntesis</a><br>
-                <a href="#" style="color: black; text-decoration: none;">RSS</a>
+                <b tabindex="5" role="heading">SERVICIOS</b><br>
+                <a href="#" style="color: black; text-decoration: none;" tabindex="5">Tarifario</a><br>
+                <a href="#" style="color: black; text-decoration: none;" tabindex="5">Suscripción</a><br>
+                <a href="#" style="color: black; text-decoration: none;" tabindex="5">Ediciones</a><br>
+                <a href="#" style="color: black; text-decoration: none;" tabindex="5">Facturación</a><br>
+                <a href="#" style="color: black; text-decoration: none;" tabindex="5">Puntos de servicio</a><br>
+                <a href="#" style="color: black; text-decoration: none;" tabindex="5">Síntesis</a><br>
+                <a href="#" style="color: black; text-decoration: none;" tabindex="5">RSS</a>
             </div>
         </div>
-        <div class="bg-body-secondary border-top text-center py-3 text">
+        <div class="bg-body-secondary border-top text-center py-3 text" tabindex="6" role="banner">
             © Derechos reservados 2022 Grupo EL COMERCIO.
         </div>
     </footer>
