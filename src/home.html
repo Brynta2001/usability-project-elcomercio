@@ -10,17 +10,69 @@
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <i class="bi bi-list"></i>
-            <div class="input-group">
-                <button type="button" class="input-group-text" id="basic-addon1">
-                    <i class="bi bi-search"></i>
-                </button>
-                <input type="text" class="form-control" placeholder="Buscar" aria-label="Buscar" aria-describedby="basic-addon1">
+            <div class="navbar-nav d-flex justify-content-start w-25">
+                <div type="button" class="me-3 d-flex justify-content-start">
+                    <i class="bi bi-list" style="font-size: 30px"></i>
+                </div>
+                <div class="input-group">
+                    <div class="input-group-text" id="btnGroupAddon">
+                        <i class="bi bi-search"></i>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Buscar" aria-label="Buscar" aria-describedby="basic-addon1">
+                </div>
             </div>
-            
+            <div class="navbar-nav d-flex justify-content-end">
+                <button class="btn btn-primary me-4">
+                    Suscribirse
+                </button>
+                <button class="btn btn-secondary">
+                    Ingresar
+                </button>
+            </div>
         </div>
     </nav>
-
+    <div class="row my-3">
+        <div class="col-md-4">
+            <b>Martes, 12 de septiembre, 2023</b><br>
+            Ecuador Continental: 09:00<br>
+            Ecuador Insular: 08:00
+        </div>
+        <div class="col-md-8">
+            <img src="/img/logo-ec.png" class="img-fluid" alt="El Comercio">
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">ÚLTIMA HORA</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">ACTUALIDAD</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">TENDENCIAS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">DEPORTES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">OPINIÓN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">VIDEO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">PODCAST</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
