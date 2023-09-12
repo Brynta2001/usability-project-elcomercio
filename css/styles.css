@@ -90,4 +90,15 @@
         margin-bottom: 0; 
     }
 
+    .password-toggle {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        cursor: pointer;
+    }
+
+    .password-input {
+        padding-right: 30px; /* Espacio para el botón de alternar contraseña */
+    }
+
     
