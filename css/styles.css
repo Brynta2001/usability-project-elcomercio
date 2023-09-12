@@ -106,13 +106,19 @@
       font-size: 25px;
       color: #000;
     }
-    
+
     .margin-body{
       margin: 0% 7%;
     }
 
     .navbar {
       background-color: #009CD7;
+    }
+
+    .title3-bold {
+      font-family: NunitoSans-Bold, sans-serif;
+      font-size: 18px;
+      color: #55565A;
     }
 
     
