@@ -48,4 +48,15 @@
       font-size: 16px;
       color: #55565A;
     }
-    
+
+    .light-blue-font {
+        color: #009CD7;
+    }
+
+    .blue-button-color {
+        color: #2380C8;
+    }
+  
+    .blue-background {
+        background: url(../img/desktopbg.png) no-repeat center center fixed;
+    }
