@@ -5,51 +5,126 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="icon" type="image/vnd.microsoft.icon" href="https://pdf.elcomercio.com/images/favicon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/calendar.css">
     <title>Ediciones anteriores</title>
 </head>
 <body class="container-fluid">
+    <header class="margin-body">
+        <nav class="navbar" style="background-color: white;">
+            <div class="container-fluid">
+                <div class="d-flex">
+                    <div type="button" class="me-3">
+                        <i class="bi bi-list" style="font-size: 30px"></i>
+                    </div>
+                    <div class="input-group">
+                        <div class="input-group-text" id="btnGroupAddon">
+                            <i class="bi bi-search"></i>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Buscar" aria-label="Buscar" aria-describedby="basic-addon1">
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <button class="btn btn-primary me-2" style="background-color: #009CD7; border-color: #009CD7;">Suscribirse</button>
+                    <a href="login.html" class="btn btn-secondary">Ingresar</a>
+                </div>
+            </div>
+        </nav>
+    
+        <div class="row my-3 align-items-center">
+            <div class="col-md-4 text-center">
+                <b>Martes, 12 de septiembre, 2023</b><br>
+                Ecuador Continental: 09:00<br>
+                Ecuador Insular: 08:00
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="../img/logo-ec.png" class="img-fluid" alt="Logo de El Comercio">
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mx-auto" >
+                  <li class="nav-item">
+                    <a class="nav-link active text-light me-5" aria-current="page" href="#"><b>ÚLTIMA HORA</b></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light me-5" href="#"><b>ACTUALIDAD</b></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-light me-5" href="previous-editions.html"><b>EDICIONES ANTERIORES</b></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-light me-5" href="#"><b>TENDENCIAS</b></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-light me-5" href="#"><b>DEPORTES</b></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-light me-5" href="#"><b>OPINIÓN</b></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" href="#"><b>VIDEO</b></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
     <div class="row margin-body">
         <div class="col">
             <h2 class="title-news text-center my-3">EDICIONES ANTERIORES</h2>
             <div class="row">
                 <div class="col">
-                    <h3 class="edition">Edición del 18 de mayo de 2023</h3>
+                    <h3 class="edition">Edición del 12 de septiembre de 2023</h3>
                     <div class="row border-bottom py-3">
-                        <div class="col-4">
-                            <img src="https://www.elcomercio.com/wp-content/uploads/2023/07/10-300x168.jpg"  class="img-fluid" alt="">
+                        <div class="col-4 d-flex align-items-center">
+                            <img src="../img/turista-atacada-tiburon-galapagos-trasladada-guayaquil.jpg"  class="img-fluid" alt="">
                         </div>
                         <div class="col">
-                            <div class="title-news">Title</div>
-                            <p class="text">Fames ipsum pulvinar dictumst adipiscing et, augue phasellus id sapien.</p>
+                            <div class="title-news">Turista atacada por tiburón en Galápagos será trasladada a Guayaquil</div>
+                            <p class="text">Tras el ataque de un tiburón que sufrió una turista mexicana de 42 años en el islote Mosquera, en Galápagos, la mujer fue trasladada desde hacia Guayaquil.</p>
                         </div>
                     </div>
                     <div class="row border-bottom py-3">
-                        <div class="col-4">
-                            <img src="https://www.elcomercio.com/wp-content/uploads/2023/07/10-300x168.jpg"  class="img-fluid" alt="">
+                        <div class="col-4 d-flex align-items-center">
+                            <img src="../img/votacion.png"  class="img-fluid" alt="">
                         </div>
                         <div class="col">
-                            <div class="title-news">Title</div>
-                            <p class="text">Fames ipsum pulvinar dictumst adipiscing et, augue phasellus id sapien.</p>
+                            <div class="title-news">SRI encontró irregularidades en análisis tributario de binomios presidenciales</div>
+                            <p class="text">El SRI encontró, al menos, cinco riesgos tributarios en el diagnóstico preliminar de los ocho binomios presidenciales.</p>
                         </div>
                     </div>
                     <div class="row border-bottom py-3">
-                        <div class="col-4">
-                            <img src="https://www.elcomercio.com/wp-content/uploads/2023/07/10-300x168.jpg"  class="img-fluid" alt="">
+                        <div class="col-4 d-flex align-items-center">
+                            <img src="../img/yaku.jpg"  class="img-fluid" alt="">
                         </div>
                         <div class="col">
-                            <div class="title-news">Title</div>
-                            <p class="text">Fames ipsum pulvinar dictumst adipiscing et, augue phasellus id sapien.</p>
+                            <div class="title-news">Yaku Pérez y Nory Pinela aceptan su precandidatura en el CNE, en Quito</div>
+                            <p class="text">Yaku Pérez y Nory Pineda aceptaron su candidatura a la Presidencia y Vicepresidencia de Ecuador este lunes, 12 de junio de 2023.</p>
                         </div>
                     </div>
                     <div class="row border-bottom py-3">
-                        <div class="col-4">
-                            <img src="https://www.elcomercio.com/wp-content/uploads/2023/07/10-300x168.jpg"  class="img-fluid" alt="">
+                        <div class="col-4 d-flex align-items-center">
+                            <img src="../img/MarcoAntonioTrujill.jpg"  class="img-fluid" alt="">
                         </div>
                         <div class="col">
-                            <div class="title-news">Title</div>
-                            <p class="text">Fames ipsum pulvinar dictumst adipiscing et, augue phasellus id sapien.</p>
+                            <div class="title-news">Bartender representa a Ecuador en concurso en Francia</div>
+                            <p class="text">El bartender del restuarante Tributo, Marco Antonio Trujillo, participa en un certamen internacional en Francia.</p>
+                        </div>
+                    </div>
+                    <div class="row border-bottom py-3">
+                        <div class="col-4 d-flex align-items-center">
+                            <img src="../img/campana_inter_gol.png"  class="img-fluid" alt="">
+                        </div>
+                        <div class="col">
+                            <div class="title-news">Leonardo Campana anotó, pero el Inter Miami empató</div>
+                            <p class="text">Leonardo Campana volvió al gol con el Inter Miami en la Major League Soccer (MLS), pero su equipo sigue sin ganar y no sale del fondo de la tabla.</p>
                         </div>
                     </div>
                 </div>
@@ -62,54 +137,74 @@
             <h2 class="title-news my-3">ÚLTIMA HORA</h2>
             <div class="border-bottom py-3">
                 <span class="title3 pe-2">
-                    0:00
+                    9:00
                 </span>
                 <span class="text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    ¿Quién le dice esto a Milei?
                 </span>
             </div>
             <div class="border-bottom py-3">
                 <span class="title3 pe-2">
-                    0:00
+                    8:56
                 </span>
                 <span class="text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    Interculturalidad y poder
                 </span>
             </div>
             <div class="border-bottom py-3">
                 <span class="title3 pe-2">
-                    0:00
+                    8:48
                 </span>
                 <span class="text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    Turismo ambientalista
                 </span>
             </div>
             <div class="border-bottom py-3">
                 <span class="title3 pe-2">
-                    0:00
+                    8:30
                 </span>
                 <span class="text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    Perdidos en el espacio…
                 </span>
             </div>
             <div class="border-bottom py-3">
                 <span class="title3 pe-2">
-                    0:00
+                    8:22
                 </span>
                 <span class="text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    La campaña mentirosa de la segunda vuelta
+                </span>
+            </div>
+            <div class="border-bottom py-3">
+                <span class="title3 pe-2">
+                    8:10
+                </span>
+                <span class="text">
+                    La matriz energética y cambio climático
+                </span>
+            </div>
+            <div class="border-bottom py-3">
+                <span class="title3 pe-2">
+                    8:02
+                </span>
+                <span class="text">
+                    Para qué nunca más
                 </span>
             </div>
             <div class="row mt-3">
                 <div class="col">
-                    <img src="https://www.elcomercio.com/wp-content/uploads/2023/07/7-1-300x168.jpg" class="img-fluid" width="200px" alt="">
-                    <p class="title3 my-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                    <p class="text">LOREM IPSUM</p>
+                    <div class="text-center">
+                        <img src="../img/Paola-Gavilanes-Respirando-Bienestar.jpg" class="img-fluid"  alt="">
+                    </div>
+                    <p class="title3-bold my-2">Así es la vida de los osos panda en Chengdu</p>
+                    <p class="text">PAOLA GAVILANEZ</p>
                 </div>
                 <div class="col border-start">
-                    <img src="https://www.elcomercio.com/wp-content/uploads/2023/07/7-1-300x168.jpg" class="img-fluid" width="200px" alt="">
-                    <p class="title3 my-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                    <p class="text">LOREM IPSUM</p>
+                    <div class="text-center">
+                        <img src="../img/msf.jpeg" class="img-fluid"  alt="">
+                    </div>
+                    <p class="title3-bold my-2">Acuérdate de los rohingyas, porque la enfermedad no los ha olvidado</p>
+                    <p class="text">MÉDICOS SIN FRONTERAS</p>
                 </div>
             </div>
         </div>
