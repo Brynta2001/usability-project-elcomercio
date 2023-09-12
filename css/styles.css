@@ -101,4 +101,14 @@
         padding-right: 30px; /* Espacio para el botón de alternar contraseña */
     }
 
+    .title-news{
+      font-family: NunitoSans-SemiBold, sans-serif;
+      font-size: 25px;
+      color: #000;
+    }
+    
+    .margin-body{
+      margin: 0% 7%;
+    }
+
     
