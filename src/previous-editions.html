@@ -15,30 +15,30 @@
         <nav class="navbar text" style="background-color: white;">
             <div class="container-fluid">
                 <div class="d-flex">
-                    <div type="button" class="me-3">
+                    <div type="button" class="me-3" tabindex="1" role="button">
                         <i class="bi bi-list" style="font-size: 30px"></i>
                     </div>
                     <div class="input-group">
-                        <div class="input-group-text" id="btnGroupAddon">
+                        <div class="input-group-text" id="btnGroupAddon" tabindex="1">
                             <i class="bi bi-search"></i>
                         </div>
-                        <input type="text" class="form-control" placeholder="Buscar" aria-label="Buscar" aria-describedby="basic-addon1">
+                        <input type="text" class="form-control" role="search" placeholder="Buscar" tabindex="1" aria-label="Buscar" alt="Buscar">
                     </div>
                 </div>
                 <div class="d-flex">
-                    <button class="btn btn-primary me-2" style="background-color: #009CD7; border-color: #009CD7;">Suscribirse</button>
-                    <a href="login.html" class="btn btn-secondary">Ingresar</a>
+                    <button class="btn btn-primary me-2" style="background-color: #009CD7; border-color: #009CD7;" tabindex="1" role="button">Suscribirse</button>
+                    <a href="login.html" class="btn btn-secondary" tabindex="1" role="button">Ingresar</a>
                 </div>
             </div>
         </nav>
     
         <div class="row my-3 align-items-center text">
-            <div class="col-md-4 text-center">
+            <div class="col-md-4 text-center" tabindex="1" role="banner">
                 <b>Martes, 12 de septiembre, 2023</b><br>
                 Ecuador Continental: 09:00<br>
                 Ecuador Insular: 08:00
             </div>
-            <div class="col-md-4 text-center">
+            <div class="col-md-4 text-center" tabindex="1" role="img">
                 <img src="../img/logo-ec.png" class="img-fluid" alt="Logo de El Comercio">
             </div>
         </div>
@@ -50,25 +50,25 @@
               <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav mx-auto" >
                   <li class="nav-item">
-                    <a class="nav-link active text-light me-5" aria-current="page" href="#"><b>ÚLTIMA HORA</b></a>
+                    <a class="nav-link active text-light me-5" aria-current="page" href="#" tabindex="2" role="navigation"><b>ÚLTIMA HORA</b></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-light me-5" href="home.html"><b>ACTUALIDAD</b></a>
+                    <a class="nav-link text-light me-5" href="home.html" tabindex="2" role="navigation"><b>ACTUALIDAD</b></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active text-light me-5" href="previous-editions.html"><b>EDICIONES ANTERIORES</b></a>
+                    <a class="nav-link active text-light me-5" href="previous-editions.html" tabindex="2" role="navigation"><b>EDICIONES ANTERIORES</b></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active text-light me-5" href="#"><b>TENDENCIAS</b></a>
+                    <a class="nav-link active text-light me-5" href="#" tabindex="2" role="navigation"><b>TENDENCIAS</b></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active text-light me-5" href="#"><b>DEPORTES</b></a>
+                    <a class="nav-link active text-light me-5" href="#" tabindex="2" role="navigation"><b>DEPORTES</b></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active text-light me-5" href="#"><b>OPINIÓN</b></a>
+                    <a class="nav-link active text-light me-5" href="#" tabindex="2" role="navigation"><b>OPINIÓN</b></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active text-light" href="#"><b>VIDEO</b></a>
+                    <a class="nav-link active text-light" href="#" tabindex="2" role="navigation"><b>VIDEO</b></a>
                   </li>
                 </ul>
               </div>
@@ -77,12 +77,12 @@
     </header>
 
     <div class="row margin-body">
-        <div tabindex="2" class="col">
-            <h2 class="title-news text-center my-3">EDICIONES ANTERIORES</h2>
+        <div class="col">
+            <h2 class="title-news text-center my-3" tabindex="3">EDICIONES ANTERIORES</h2>
             <div class="row">
                 <div class="col">
-                    <h3 class="edition">Edición del 12 de septiembre de 2023</h3>
-                    <div class="row border-bottom py-3">
+                    <h3 class="edition" tabindex="4">Edición del 12 de septiembre de 2023</h3>
+                    <div class="row border-bottom py-3" tabindex="5">
                         <div class="col-4 d-flex align-items-center">
                             <img src="../img/turista-atacada-tiburon-galapagos-trasladada-guayaquil.jpg"  class="img-fluid" alt="Fotografía de un tiburon debajo del mar">
                         </div>
@@ -91,7 +91,7 @@
                             <p class="text">Tras el ataque de un tiburón que sufrió una turista mexicana de 42 años en el islote Mosquera, en Galápagos, la mujer fue trasladada desde hacia Guayaquil.</p>
                         </div>
                     </div>
-                    <div class="row border-bottom py-3">
+                    <div class="row border-bottom py-3" tabindex="5">
                         <div class="col-4 d-flex align-items-center">
                             <img src="../img/votacion.png"  class="img-fluid" alt="Fotografía de una personas ejerciendo su derecho al voto">
                         </div>
@@ -100,7 +100,7 @@
                             <p class="text">El SRI encontró, al menos, cinco riesgos tributarios en el diagnóstico preliminar de los ocho binomios presidenciales.</p>
                         </div>
                     </div>
-                    <div class="row border-bottom py-3">
+                    <div class="row border-bottom py-3" tabindex="5">
                         <div class="col-4 d-flex align-items-center">
                             <img src="../img/yaku.jpg"  class="img-fluid" alt="Fotografía del candidato a la presidendia Yaku Perez con su binomio">
                         </div>
@@ -109,7 +109,7 @@
                             <p class="text">Yaku Pérez y Nory Pineda aceptaron su candidatura a la Presidencia y Vicepresidencia de Ecuador este lunes, 12 de junio de 2023.</p>
                         </div>
                     </div>
-                    <div class="row border-bottom py-3">
+                    <div class="row border-bottom py-3" tabindex="5">
                         <div class="col-4 d-flex align-items-center">
                             <img src="../img/MarcoAntonioTrujill.jpg"  class="img-fluid" alt="Fotografía de Marco Trujillo preparando un coctel">
                         </div>
@@ -118,7 +118,7 @@
                             <p class="text">El bartender del restuarante Tributo, Marco Antonio Trujillo, participa en un certamen internacional en Francia.</p>
                         </div>
                     </div>
-                    <div class="row border-bottom py-3">
+                    <div class="row border-bottom py-3" tabindex="5">
                         <div class="col-4 d-flex align-items-center">
                             <img src="../img/campana_inter_gol.png"  class="img-fluid" alt="Fotografía del futbolista Leonardo Campana festejando un gol con sus compañero Dixon Arroyo">
                         </div>
@@ -129,13 +129,13 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="calendar"></div>
+                    <div class="calendar" tabindex="6"></div>
                 </div>
             </div>
         </div>
-        <div class="col-md-4 border-start" tabindex="3">
-            <h2 class="title-news my-3">ÚLTIMA HORA</h2>
-            <div class="border-bottom py-3">
+        <div class="col-md-4 border-start">
+            <h2 class="title-news my-3" tabindex="7">ÚLTIMA HORA</h2>
+            <div class="border-bottom py-3" tabindex="8">
                 <span class="title3 pe-2">
                     9:00
                 </span>
@@ -143,7 +143,7 @@
                     ¿Quién le dice esto a Milei?
                 </span>
             </div>
-            <div class="border-bottom py-3">
+            <div class="border-bottom py-3" tabindex="8">
                 <span class="title3 pe-2">
                     8:56
                 </span>
@@ -151,7 +151,7 @@
                     Interculturalidad y poder
                 </span>
             </div>
-            <div class="border-bottom py-3">
+            <div class="border-bottom py-3" tabindex="8">
                 <span class="title3 pe-2">
                     8:48
                 </span>
@@ -159,7 +159,7 @@
                     Turismo ambientalista
                 </span>
             </div>
-            <div class="border-bottom py-3">
+            <div class="border-bottom py-3" tabindex="8">
                 <span class="title3 pe-2">
                     8:30
                 </span>
@@ -167,7 +167,7 @@
                     Perdidos en el espacio…
                 </span>
             </div>
-            <div class="border-bottom py-3">
+            <div class="border-bottom py-3" tabindex="8">
                 <span class="title3 pe-2">
                     8:22
                 </span>
@@ -175,7 +175,7 @@
                     La campaña mentirosa de la segunda vuelta
                 </span>
             </div>
-            <div class="border-bottom py-3">
+            <div class="border-bottom py-3" tabindex="8">
                 <span class="title3 pe-2">
                     8:10
                 </span>
@@ -183,7 +183,7 @@
                     La matriz energética y cambio climático
                 </span>
             </div>
-            <div class="border-bottom py-3">
+            <div class="border-bottom py-3" tabindex="8">
                 <span class="title3 pe-2">
                     8:02
                 </span>
@@ -191,7 +191,7 @@
                     Para qué nunca más
                 </span>
             </div>
-            <div class="row mt-3">
+            <div class="row mt-3" tabindex="9">
                 <div class="col">
                     <div class="text-center">
                         <img src="../img/Paola-Gavilanes-Respirando-Bienestar.jpg" class="img-fluid"  alt="Fotografia a blanco y negro de Paola Gavilanez">
@@ -209,7 +209,7 @@
             </div>
         </div>
     </div>
-    <footer class="bg-body-tertiary border-top">
+    <footer class="bg-body-tertiary border-top" tabindex="10">
         <img src="../img/logo-ec.png" class="img-fluid px-5 pt-3" style="width: 300px;" alt="Logo de El Comercio">
         <div class="row px-5 py-3 ">
             <div class="col-md-3 text">
